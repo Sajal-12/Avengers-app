@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:padding="8dp"
+        android:text="Hello World!"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#00ffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HeLLo Android Development Course Students" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="22dp"
+        android:src="@drawable/tony_stark"
+        android:contentDescription="Tony Stark Image" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Click Here"
+        android:background="#009921"
+        android:textColor="#0000ff"
+        android:textStyle="bold"
+        android:textSize="18sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="Enter Your Text Here"
+        android:inputType="textPassword" />
+
+</LinearLayout>
